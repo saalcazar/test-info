@@ -12,7 +12,7 @@ import (
 var (
 	db     *sql.DB
 	once   sync.Once
-	dbprod string = "host=viaduct.proxy.rlwy.net port=22236 user=postgres password=AdbGgaC551FDFEdfBDdgf52-abB6gbab dbname=railway sslmode=require"
+	dbprod string = "host=roundhouse.proxy.rlwy.net port=11307 user=postgres password=AdeGAcGd41C5EgDee5CA5gAf6Dbcc-6b dbname=railway sslmode=require"
 	//dblocal string = "host=localhost port=5432 user=ceadl password=ceadl2023 dbname=ceadl_info sslmode=disable"
 )
 
